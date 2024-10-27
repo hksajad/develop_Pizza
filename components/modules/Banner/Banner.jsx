@@ -3,10 +3,10 @@ const Banner = () => {
   return (
     <div className="Banner flex  max-[768px]:flex-col-reverse">
       <div className="left_banner flex flex-col mt-[20px]">
-        <h2 className=" border-[3px] border-solid border-[#53c60b] w-fit px-2 py-2">BotoFood</h2>
+        <h2 className=" border-b-[3px]  border-[#53c60b] w-fit ">DevelopFood</h2>
         <p className="font-medium	mt-[16px]">Food Delivery and Takeout!</p>
         <span className="text-gray-600 text-justify mt-[16px] font-medium">
-          BotoFood is an online food ordering and delivery platform launched by
+          DevelopFood is an online food ordering and delivery platform launched by
           Uber in 2014. Meals are delivered by couriers using cars, scooters,
           bikes, or on foot.
         </span>

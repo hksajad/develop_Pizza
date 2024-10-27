@@ -4,7 +4,7 @@ import Link from "next/link";
 const Layout = ({ children }) => {
   return (
     <div>
-      <header className="header max-w-[900px] m-auto flex justify-between items-center py-[20px] max-[992px]:mx-[70px] max-[768px]:mx-[40px]">
+      <header className="header max-w-[900px]  m-auto flex justify-between items-center py-[20px] max-[992px]:mx-[70px] max-[768px]:mx-[10px]">
         <div className="left">
           <Link href="/" className="text-[#53c60b] font-semibold text-[1.2rem]">
             DevelopFood

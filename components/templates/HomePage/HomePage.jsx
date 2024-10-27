@@ -1,6 +1,8 @@
 import Attributes from '@/components/modules/Attributes/Attributes'
 import Banner from '@/components/modules/Banner/Banner'
+import Companies from '@/components/modules/Companies/Companies'
 import Definition from '@/components/modules/Definition/Definition'
+import Guide from '@/components/modules/Guide/Guide'
 import React from 'react'
 
 const HomePage = () => {
@@ -9,6 +11,8 @@ const HomePage = () => {
         <Banner/>
         <Attributes/>
         <Definition/>
+        <Companies/>
+        <Guide/>
     </div>
   )
 }
