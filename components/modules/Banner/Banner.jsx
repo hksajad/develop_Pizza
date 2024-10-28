@@ -10,7 +10,7 @@ const Banner = () => {
           Uber in 2014. Meals are delivered by couriers using cars, scooters,
           bikes, or on foot.
         </span>
-        <Link href="/" className="bg-[#53c60b] text-white px-[30px] py-[10px] w-fit mt-[30px] rounded-[5px]">See All</Link>
+        <Link href="/menu" className="bg-[#53c60b] text-white px-[40px] py-[10px] w-fit mt-[30px] rounded-[5px]">See All</Link>
       </div>
       <div className="right_banner">
         <img src="/images/banner.png" alt="Food image" className="w-[700px] max-[992px]:w-[900px] max-[768px]:w-full"/>

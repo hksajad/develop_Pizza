@@ -15,6 +15,9 @@ const Layout = ({ children }) => {
           <Link href="/categories" className="ml-[15px]">
             Categories
           </Link>
+          <Link href="/" className="ml-[15px]">
+            Home
+          </Link>
         </div>
       </header>
       <div className="main">{children}</div>
@@ -25,9 +28,9 @@ const Layout = ({ children }) => {
           rel="noreferrer"
           className="no-underline"
         >
-          Devrlop Mart
+          Develop Mart
         </a>
-        Next.js course | BotoFood Project;
+         | DevelopFood Project;
       </footer>
     </div>
   );
