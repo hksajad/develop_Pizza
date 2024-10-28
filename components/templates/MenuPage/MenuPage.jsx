@@ -1,5 +1,4 @@
 import CardFood from "@/components/modules/CardFood/CardFood";
-import Image from "next/image";
 
 async function MenuPage() {
   const response = await fetch("http://localhost:4000/data");
