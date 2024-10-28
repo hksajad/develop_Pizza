@@ -9,7 +9,7 @@ async function MenuPage() {
         {
           data.map((food) => (
             <div className="content_food  w-fit max-[768px]:w-full">
-              <CardFood key={food.id} {...food}/>
+              <CardFood  {...food}/>
             </div>
           ))
         }
